@@ -1,0 +1,17 @@
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url(dunk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40pt;
+    color: white; 
+    height: 350px;
+
+}
+.navbar-dark .navbar-brand {
+    color: goldenrod;
+}
+.table-dark {
+    color: goldenrod;
+    background-color: black
+}
