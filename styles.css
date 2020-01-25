@@ -4,14 +4,53 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 40pt;
-    color: white; 
-    height: 350px;
+    color:#BAA892; 
+    height: 250px;
+    background-color: #BAA892;
+    margin-bottom: 0;
 
 }
 .navbar-dark .navbar-brand {
-    color: goldenrod;
+    color: #BAA892;
+}
+.tablehead {
+    color: #BAA892;
+    background-color: black;
+}
+.footercontainer {
+    margin-left: 25px;
+}
+.text-muted {
+    background-color: black;
 }
 .table-dark {
-    color: goldenrod;
-    background-color: black
+    background-color: black;
+}
+.display-4 {
+    color: #BAA892;
+    font-size: 50pt;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white; 
+}
+.lead {
+    font-size: 40pt;
+    text-shadow: 1px 1px 1px white;
+    color: black;
+    font-weight: bold;
+}
+.topheader {
+    margin-left: 25px;
+}
+.announcement {
+     color: black;
+    font-size: 24pt;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+    margin-left: 25px;
+}
+.row {
+    background-color: #BAA892;
+}
+.emptyrow {
+    height: 50px;
 }

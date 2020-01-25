@@ -18,7 +18,7 @@
     <!-- Your own CSS -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>Hello world!</title>
+    <title>Purdue University | West Lafayette, IN </title>
   </head>
   <body>
     <!-- Your stuff goes here -->
@@ -40,17 +40,19 @@
     </nav>
     <div container-fluid>
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
+      <div class="container topheader">
+        <h1 class="display-4">Welcome, Boilermakers Fans!</h1>
         <p class="lead">Hail, Hail to Old Purdue...</p>
       </div>
     </div>
   </div>
   <div class="container-fluid">
+    <div class="row emptyrow"></div>
     <div class="row">
       <div class="col md-6">
+        <h1 class="announcement"> Schedule:</h1>
         <table class="table table-dark">
-          <thead>
+          <thead class="tablehead">
             <tr>
               <th scope="col">Date</th>
               <th scope="col">Opponent</th>
@@ -74,8 +76,9 @@
         </table>
       </div>
       <div class="col md-6">
+        <h1 class="announcement"> Roster:</h1>
         <table class="table table-dark">
-          <thead>
+          <thead class="tablehead">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Player</th>
@@ -88,6 +91,10 @@
 
             </tr>
             <tr>
+              <th scope="row">2</th>
+              <td>Eric Hunter</td>
+            </tr>
+            <tr>
               <th scope="row">3</th>
               <td>Jahaad Proctor</td>
             </tr>
@@ -95,17 +102,41 @@
               <th scope="row">5</th>
               <td>Tommy Luce</td>
             </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>Evan Boudreaux</td>
+            </tr>
+            <tr>
+              <th scope="row">20</th>
+              <td>Nojel Eastern</td>
+            </tr>
+            <tr>
+              <th scope="row">32</th>
+              <td>Matt Haarms</td>
+            </tr>
           </tbody>
         </table>
+        </div>
+    </div>
+    <div class="row">
+      <h1 class="announcement"> And perhaps most importantly:</h1>
+    </div>
+    <div class="row"> 
+      <div class="rounded mx-auto d-block">
+      <img src="IUsucks.jpg" alt="IU Sucks" class="img-thumbnail">
       </div>
     </div>
   </div>
+  <div class="row emptyrow">
+  </div>
   <footer class="text-muted">
+      <div class="container footercontainer">
       <p class="float-right">
         <a href="index.html">Back to top</a>
       </p>
       <p>All images property of Purdue University </p>
       <p>Looking for Indiana University? <a href="https://en.wikipedia.org/wiki/Hell_on_Earth">Visit their location here</a></p>
+    </div>
   </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
